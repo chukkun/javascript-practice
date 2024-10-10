@@ -23,6 +23,7 @@
 // console.log(sentence);
 
 
+
 // ____________________________________________________________________________________________
 
 // 3. Form a Sentence About a Favorite Activity
@@ -51,28 +52,34 @@
 
 //________________________________________________________________________________________
 
+// 5. Create a URL from Parts
+// You have three variables: protocol, domain, and path. Use string concatenation to form a complete URL.
+//  For example, if protocol = "https", domain = "example.com", and path = "/about",
+//   the result should be: "https://example.com/about".
+
+
 //  let protocol = "https";
 // let domain = "example.com";
 // let path = "/about";
 // console.log(protocol+"://"+domain+path);
 
 
-//_________________________________________________________________________________________
+//___________________________________________________________________________________________
 
-//  let subject = "The cat";
-// let verb = "chased";
-// let object = "the mouse.";
-// let output = subject+" "+verb+" "+object;
-// console.log(output);
-
-//______________________________________________________________________________________
-
+// 7. Form a Product Description
+// Write a program that takes two variables, product and price, and creates a sentence describing the product.
+//  For example, if product = "laptop" and price = "$800", the result should be: "This laptop costs $800.".
 
 //  let product = "laptop";
 // let price = "$800";
 // console.log(`This ${product} costs ${price}.`);
 
 //_______________________________________________________________________________________
+
+// 9. Create a Sentence with a Time and Place
+// You have two variables: time and place. Concatenate them into a sentence like: "The meeting is at [time] in [place]."
+//  For example, if time = "3 PM" and place = "the conference room",
+//   the result should be: "The meeting is at 3 PM in the conference room.".
 
 
 // let time ="3 PM";
@@ -87,6 +94,10 @@
 // console.log(`Your favorite movie is ${movie} which was released in ${year}.`)
 
 //_______________________________________________________________________________________
+
+// 10. Form a Basic Mathematical Statement
+// Take two variables, num1 and num2, and use string concatenation to form a simple mathematical statement.
+//  For example, if num1 = 5 and num2 = 10, the result should be: "5 plus 10 equals 15."
 
 
 //  let num1=5;

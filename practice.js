@@ -1,22 +1,22 @@
-// greet();
+
 // function greet() {
 //     console.log("Hello, World!");
 // }
 //  greet();
 
-// getRandomNumber();
+
 // function getRandomNumber() {
 //     return(Math.random());
 // }
 // let num=getRandomNumber();
 // console.log(num);
 
-
-function displayGreeting(nam) {
-    console.log(` Hello, ${nam}! `)
-}
-displayGreeting("vajesh");
-displayGreeting("Subbu");
+// let nam="bala";
+// function displayGreeting(nam) {
+//     console.log(` Hello, ${nam}! `)
+// }
+// displayGreeting(nam);
+// displayGreeting("Subbu");
 
 
 // let a=3;
@@ -59,3 +59,16 @@ displayGreeting("Subbu");
 //     }
 // }
 // console.log(isEven(2));
+
+// function compareNumbers(num1,num2){
+//     if (num1==num2){
+//         console.log("num are equal")
+//     }
+//     else if(num1>num2){
+//         console.log("num1 greater")
+//     }
+//     else {
+//         console.log("num2 is greater")
+//     }
+// }
+// compareNumbers(5,7)
