@@ -93,11 +93,12 @@
 // GCD
 
 // function Gcd(a,b){
-//         let max =Math.min(a,b);
-//         for(i=max;i>0;i++){
-//             if(a%i===0&&a%i===0){
-//                 console.log(i);
-//               break;
+//         let min =Math.min(a,b);
+//         for(let i=min;i>0;i--){
+//             if(a%i===0&&b%i===0){
+//                 return i;
 //             }
 //         }
-//     } Gcd(7,9)
+//     }console.log( Gcd(48,18));
+
+// __________________________________
