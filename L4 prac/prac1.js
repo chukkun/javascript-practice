@@ -127,4 +127,25 @@
 
 // _______________________________________
 
+// function prime(num){
+//     if(num<=1){
+//         return false;
+//     }
+//     for(i=2;i<=Math.sqrt(num);i++){
+//         if(num%i==0){
+//             return false;
+//         }
+//     }
+//     return true;
+// }
 
+// function printPrimesInRange(m, n) {
+//     let primes = [];
+//     for (let i = m; i <= n; i++) {
+//       if (prime(i)) {
+//         primes.push(i);
+//       }
+//     }
+// }
+// let arr=printPrimesInRange(10,20);
+// console.log(arr)
