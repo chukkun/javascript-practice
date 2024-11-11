@@ -149,3 +149,76 @@
 // }
 // let arr=printPrimesInRange(10,20);
 // console.log(arr)
+
+// ____________________________________
+
+// function maxAString(arr) {
+//     let maxACount = 0;
+//     let resultString = "";
+
+   
+//     for (const str of arr) {
+       
+//         const countA = (str.match(/a/g) || []).length;
+
+       
+//         if (countA > maxACount) {
+//             maxACount = countA;
+//             resultString = str;
+//         }
+//     }
+
+//     return resultString;
+// }
+
+
+// const arr = ["apple", "appeal", "after", "banish"];
+// console.log(maxAString(arr));
+
+// _________________________________________
+
+// function firstNegativeIndex(arr) {
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] < 0) {
+//             return i; 
+//         }
+//     }
+//     return -1; 
+// }
+
+
+// const arr = [3, 5, -2, 7, -9];
+// console.log(firstNegativeIndex(arr)); 
+
+// ____________________________________________
+
+
+// function topScoringStudent(names, scores) {
+//     if (names.length === 0 || scores.length === 0 || names.length !== scores.length) {
+//         return null; 
+//     }
+
+//     let maxScore = scores[0];
+//     let topStudent = names[0];
+
+//     for (let i = 1; i < scores.length; i++) {
+//         if (scores[i] > maxScore) {
+//             maxScore = scores[i];
+//             topStudent = names[i];
+//         }
+//     }
+
+//     return topStudent;
+// }
+
+
+// const names = ["sanjay", "priya", "ramesh", "sanjana"];
+// const scores = [88, 45, 71, 91];
+// console.log(topScoringStudent(names, scores)); 
+
+// _____________________________________________
+
+
+
+
+
