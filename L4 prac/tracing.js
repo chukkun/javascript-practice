@@ -50,17 +50,17 @@ function printStar(n) {
     }
 }
 function getSpaces(n){
-    let outputStr= "";
+    let outputStr="";
     for(let i=1;i<=n;i++){
-        outputStr+= " ";
+        outputStr+=" ";
 
     }return outputStr;
 }
 
 function getNumSequence(n){
-    let outputStr= "";
+    let outputStr="";
     for(let i=1; i<=n;i++){
-        outputStr+=i+ " ";
+        outputStr+=i+" ";
     }return outputStr;
 }
 
